@@ -46,7 +46,9 @@ Linux 环境下的程序员如果不会使用GNU make来构建和管理自己的
 
 ![1536411721611.png](image/1536411721611.png)
 
+## 参考博客
 
+<https://www.cnblogs.com/yyangblog/p/4159778.html>
 
 ## 总结
 
