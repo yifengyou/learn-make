@@ -1,8 +1,8 @@
-# Makefile学习笔记
+# GNU Make学习笔记
 
 ## 本仓库内容
 
-1. Makefile学习笔记
+1. GNU Make学习笔记
 
 ```
 Something I hope you know before go into the coding~
@@ -12,11 +12,11 @@ Bug report, questions and discussion are welcome, you can post an issue or pull 
 
 ## 相关站点
 
-* GitHub地址:<https://github.com/yifengyou/learn-makefile>
-* GitBook地址:<https://yifengyou.gitbooks.io/learn-makefile/content/>
+* GitHub地址:<https://github.com/yifengyou/learn-make>
+* GitBook地址:<https://yifengyou.gitbooks.io/learn-make/content/>
 
 
-## Makefile简介
+## GNU Make简介
 
 一个工程中的源文件不计其数，其按类型、功能、模块分别放在若干个目录中，makefile定义了一系列的规则来指定，哪些文件需要先编译，哪些文件需要后编译，哪些文件需要重新编译，甚至于进行更复杂的功能操作，因为**makefile就像一个Shell脚本一样，其中也可以执行操作系统的命令。**
 
@@ -49,6 +49,7 @@ Linux 环境下的程序员如果不会使用GNU make来构建和管理自己的
 ## 参考博客
 
 <https://www.cnblogs.com/yyangblog/p/4159778.html>
+<https://blog.csdn.net/hawks93/article/details/79444229>
 
 ## 总结
 
