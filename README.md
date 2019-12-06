@@ -34,21 +34,18 @@ Linux 环境下的程序员如果不会使用GNU make来构建和管理自己的
 ## 目录
 
 * [GNU make](README.md)
-* [概述](docs/概述/概述)
-  - [Make之前基本知识](docs/概述/Make之前基本知识)
-  - [GNU make介绍](docs/概述/GNU-make介绍)
-* [Makefile总述](docs/Makefile总述/Makefile总述)
-* [规则的命令](docs/规则的命令/第四章-规则的命令)
-* [Makefile中的变量](docs/Makefile中的变量/Makefile中的变量)
-* [Makefile的条件执行](docs/Makefile的条件执行/Makefile的条件执行)
-* [make的内嵌函数](docs/make的内嵌函数/make的内嵌函数)
-* [执行make](docs/执行make/执行make)
-* [make的隐含规则](docs/make的隐含规则/make的隐含规则)
-* [使用make更新静态库文件](docs/使用make更新静态库文件/使用make更新静态库文件)
-* [GNU make的特点](docs/GNU make的特点/GNU make的特点)
-* [和其它版本的兼容](docs/和其它版本的兼容/和其它版本的兼容)
-* [Makefile的约定](docs/Makefile的约定/Makefile的约定)
-* [make的常见错误信息](docs/make的常见错误信息/make的常见错误信息)
+* [make概述](docs/make概述.md)
+    * [make历史](docs/概述/make历史)
+    * [make基本原理](docs/概述/make基本原理)
+* [makefile介绍](docs/makefile介绍.md)
+* [书写规则](docs/书写规则.md)
+* [书写命令](docs/书写命令.md)
+* [使用变量](docs/使用变量.md)
+* [使用条件判断](docs/使用条件判断.md)
+* [函数](docs/函数.md)
+* [make的运行](docs/make的运行.md)
+* [隐式规则](docs/隐式规则.md)
+* [使用make更新函数库文件](docs/使用make更新函数库文件.md)
 
 
 ## 思维导图
