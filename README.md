@@ -1,8 +1,10 @@
-# GNU Make学习笔记
+# GNU make学习笔记
+
+![20191206_115541_14](image/20191206_115541_14.png)
 
 ## 本仓库内容
 
-1. GNU Make学习笔记
+1. GNU make学习笔记
 
 ```
 Something I hope you know before go into the coding~
@@ -14,9 +16,10 @@ Bug report, questions and discussion are welcome, you can post an issue or pull 
 
 * GitHub地址:<https://github.com/yifengyou/learn-make>
 * GitBook地址:<https://yifengyou.gitbooks.io/learn-make/content/>
+* GitPage : <https://yifengyou.github.io/learn-make/>
 
 
-## GNU Make简介
+## GNU make简介
 
 一个工程中的源文件不计其数，其按类型、功能、模块分别放在若干个目录中，makefile定义了一系列的规则来指定，哪些文件需要先编译，哪些文件需要后编译，哪些文件需要重新编译，甚至于进行更复杂的功能操作，因为**makefile就像一个Shell脚本一样，其中也可以执行操作系统的命令。**
 
@@ -31,19 +34,21 @@ Linux 环境下的程序员如果不会使用GNU make来构建和管理自己的
 ## 目录
 
 * [GNU make](README.md)
-* [第一章-概述](docs/第一章-概述/第一章-概述)
-* [第二章-Makefile总述](docs/第二章-Makefile总述/第二章-Makefile总述)
-* [第四章-规则的命令](docs/第四章-规则的命令/第四章-规则的命令)
-* [第五章-Makefile中的变量](docs/第五章-Makefile中的变量/第五章-Makefile中的变量)
-* [第六章-Makefile的条件执行](docs/第六章-Makefile的条件执行/第六章-Makefile的条件执行)
-* [第七章-make的内嵌函数](docs/第七章-make的内嵌函数/第七章-make的内嵌函数)
-* [第八章-执行make](docs/第八章-执行make/第八章-执行make)
-* [第九章-make的隐含规则](docs/第九章-make的隐含规则/第九章-make的隐含规则)
-* [第十章-使用make更新静态库文件](docs/第十章-使用make更新静态库文件/第十章-使用make更新静态库文件)
-* [第十一章-GNU make的特点](docs/第十一章-GNU make的特点/第十一章-GNU make的特点)
-* [第十二章-和其它版本的兼容](docs/第十二章-和其它版本的兼容/第十二章-和其它版本的兼容)
-* [第十三章-Makefile的约定](docs/第十三章-Makefile的约定/第十三章-Makefile的约定)
-* [第十四章-make的常见错误信息](docs/第十四章-make的常见错误信息/第十四章-make的常见错误信息)
+* [概述](docs/概述/概述)
+  - [Make之前基本知识](docs/概述/Make之前基本知识)
+  - [GNU make介绍](docs/概述/GNU-make介绍)
+* [Makefile总述](docs/Makefile总述/Makefile总述)
+* [规则的命令](docs/规则的命令/第四章-规则的命令)
+* [Makefile中的变量](docs/Makefile中的变量/Makefile中的变量)
+* [Makefile的条件执行](docs/Makefile的条件执行/Makefile的条件执行)
+* [make的内嵌函数](docs/make的内嵌函数/make的内嵌函数)
+* [执行make](docs/执行make/执行make)
+* [make的隐含规则](docs/make的隐含规则/make的隐含规则)
+* [使用make更新静态库文件](docs/使用make更新静态库文件/使用make更新静态库文件)
+* [GNU make的特点](docs/GNU make的特点/GNU make的特点)
+* [和其它版本的兼容](docs/和其它版本的兼容/和其它版本的兼容)
+* [Makefile的约定](docs/Makefile的约定/Makefile的约定)
+* [make的常见错误信息](docs/make的常见错误信息/make的常见错误信息)
 
 
 ## 思维导图
@@ -54,20 +59,11 @@ Linux 环境下的程序员如果不会使用GNU make来构建和管理自己的
 
 ![1536411318497.png](image/1536411318497.png)
 
-
 ![1536411378639.png](image/1536411378639.png)
 
 <http://www.gnu.org/software/make/manual/>
 
 ![1536411721611.png](image/1536411721611.png)
 
-## 参考博客
-
-<https://www.cnblogs.com/yyangblog/p/4159778.html>
-<https://blog.csdn.net/hawks93/article/details/79444229>
-
-## 总结
-
-```
-* 理论联系实际，知道怎么操作，代码要会写，源码要看的懂~
-```
+* <https://www.cnblogs.com/yyangblog/p/4159778.html>
+* <https://blog.csdn.net/hawks93/article/details/79444229>
