@@ -67,3 +67,4 @@ Linux 环境下的程序员如果不会使用GNU make来构建和管理自己的
 
 * <https://www.cnblogs.com/yyangblog/p/4159778.html>
 * <https://blog.csdn.net/hawks93/article/details/79444229>
+* <https://seisman.github.io/how-to-write-makefile/>
