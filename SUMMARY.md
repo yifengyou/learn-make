@@ -13,4 +13,6 @@
 * [make的运行](docs/make的运行.md)
 * [隐式规则](docs/隐式规则.md)
 * [使用make更新函数库文件](docs/使用make更新函数库文件.md)
+* [教程](docs/教程.md)
+    * [跟我一起写Makefile](docs/教程/跟我一起写Makefile.md)
 
